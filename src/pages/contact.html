@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Submit to Mouthwatering Recipes</title>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="../../assets/favicon.ico" type="image/x-icon">
+        <!-- css -->
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <!-- font -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!-- NAV -->
+        <nav class="navabr">
+            <div class="nav-center">
+                <div class="nav-header">
+                    <a href="../../index.html" class="nav-logo">
+                        <img src="../../assets/logo.png" alt="recipes logo">
+                    </a>
+                    <button type="button" class="btn nav-btn">
+                        <i class="fa-solid fa-burger fa-align-justify"></i>
+                    </button>
+                </div>
+                <div class="nav-links">
+                    <a href="../../index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="recipes.html" class="nav-link">Recipes</a>
+                    <a href="categories.html" class="nav-link">Categories</a>
+                    <div class="nav-link social-btn">
+                        <a href="https://github.com/debasish-dutta" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            <div/>
+        </nav>
+        <!-- end NAV -->
+        <!-- Main section-->
+        <main class="page">
+            <section class="submit-cont">
+                <article class="submit-info">
+                    <h3>Want to get in touch?</h3>
+                    <p>Submit to Mouthwatering Recipes.</p>
+                    <p>Your originals will be featured here.</p>
+                </article>
+                <article>
+                    <form action="" class="form submit-form">
+                        <div class="form-row">
+                            <label for="name" class="form-label">Your name</label>
+                            <input type="text" name="name" id="name" class="form-input">
+                        </div>
+                        <div class="form-row">
+                            <label for="email" class="form-label">Your email</label>
+                            <input type="email" name="name" id="email" class="form-input">
+                        </div>
+                        <div class="form-row">
+                            <label for="recipe" class="form-label">Your recipe</label>
+                            <textarea name="recipe" id="recipe" cols="50" rows="10" class="form-input"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-block">Submit</button>
+                    </form>
+                </article>
+            </section>
+            <section class="featured-recipes">
+                <h5 class=""featured-title>Featured Recipes</h5>
+                <div class="recipes-list">
+                    <div class="single-recipe">
+                        <a href="single-recipe.html" class="recipe">
+                            <img src="../../assets/recipes/french-toast.jpeg" alt="french-toast" class="img recipe-img">
+                            <h5>French Toast</h5>
+                            <p>Prep : 15min | Cook : 5min</p>
+                        </a>
+                    </div>
+                    <div class="single-recipe">
+                        <a href="single-recipe.html" class="recipe">
+                            <img src="../../assets/recipes/paneer-bm.jpeg" alt="paneer-butter-masala" class="img recipe-img">
+                            <h5>Paneer Butter Masala</h5>
+                            <p>Prep : 5min | Cook : 30min</p>
+                        </a>
+                    </div>
+                    <div class="single-recipe">
+                        <a href="single-recipe.html" class="recipe">
+                            <img src="../../assets/recipes/samosa.jpeg" alt="samosa" class="img recipe-img">
+                            <h5>Samosa</h5>
+                            <p>Prep : 15min | Cook : 5min</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- end Main section-->
+        <!-- footer -->
+        <footer class="page-ftr">
+            <p>&copy; <span id=""date> 2022 </span>
+            <span class="ftr-logo">Mouthwatering Recipes </span>
+            Buit with ❤️ by 
+            </p>
+        </footer>
+        <!-- end footer -->
+    <script src="../js/script.js"></script>
+    </body>
+</html>
